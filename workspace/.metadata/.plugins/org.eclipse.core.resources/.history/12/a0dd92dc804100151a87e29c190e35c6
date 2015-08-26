@@ -1,0 +1,16 @@
+/*
+ * altitude.h
+ */
+
+#include "mraa.hpp"
+#include <math.h>
+
+#ifndef ALTITUDE_H_
+#define ALTITUDE_H_
+
+
+void init();
+void update();
+
+
+#endif /* ALTITUDE_H_ */

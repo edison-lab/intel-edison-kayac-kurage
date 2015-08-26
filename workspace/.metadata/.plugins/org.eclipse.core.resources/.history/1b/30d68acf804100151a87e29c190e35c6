@@ -1,0 +1,9 @@
+/*
+ * bme280.cpp
+ */
+#include "bme280.h"
+
+int altitude(int n)
+{
+	return n*n*n;
+}

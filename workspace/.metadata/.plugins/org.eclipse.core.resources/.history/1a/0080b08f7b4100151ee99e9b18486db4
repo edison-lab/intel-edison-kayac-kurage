@@ -1,0 +1,9 @@
+// fork via http://trac.switch-science.com/wiki/BME280
+
+#include "mraa.hpp"
+
+
+int main()
+{
+	cout << altitude(3) << endl;
+}

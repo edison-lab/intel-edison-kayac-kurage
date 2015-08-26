@@ -1,0 +1,6 @@
+#ifndef BME280_H_
+#define BME280_H_
+
+//int altitude(int n);
+
+#endif /* BME280_H_ */

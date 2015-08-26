@@ -1,0 +1,7 @@
+15:33:07 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/BMEReader.o ../src/BMEReader.cpp 
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/altitude.o src/BMEReader.o 
+
+15:33:07 Build Finished (took 274ms)
+

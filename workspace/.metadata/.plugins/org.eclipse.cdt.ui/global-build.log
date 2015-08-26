@@ -1,0 +1,253 @@
+14:08:57 **** Rebuild of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bmeReader.o ../src/bmeReader.cpp 
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/bmeReader.o 
+14:21:53 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bme280.o ../src/bme280.cpp 
+../src/bme280.cpp: In function 'double altitude()':
+../src/bme280.cpp:9:12: warning: 'h' is used uninitialized in this function [-Wuninitialized]
+     return h;
+            ^
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bmeReader.o ../src/bmeReader.cpp 
+In file included from ../src/bmeReader.cpp:4:0:
+../src/bme280.cpp: In function 'double altitude()':
+../src/bme280.cpp:9:12: warning: 'h' is used uninitialized in this function [-Wuninitialized]
+     return h;
+            ^
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/bmeReader.o src/bme280.o 
+src/bme280.o: In function `altitude()':
+/Users/nakano-minoru/Repository/edison-kurage/workspace/bmeReader/Debug/../src/bme280.cpp:7: multiple definition of `altitude()'
+src/bmeReader.o:/Users/nakano-minoru/Repository/edison-kurage/workspace/bmeReader/Debug/../src/bme280.cpp:7: first defined here
+collect2: error: ld returned 1 exit status
+14:23:44 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bmeReader.o ../src/bmeReader.cpp 
+../src/bmeReader.cpp: In function 'int main()':
+../src/bmeReader.cpp:8:2: error: 'cout' was not declared in this scope
+  cout << altitude(3) << endl;
+  ^
+../src/bmeReader.cpp:8:20: error: 'altitude' was not declared in this scope
+  cout << altitude(3) << endl;
+                    ^
+../src/bmeReader.cpp:8:25: error: 'endl' was not declared in this scope
+  cout << altitude(3) << endl;
+                         ^
+14:23:59 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bmeReader.o ../src/bmeReader.cpp 
+../src/bmeReader.cpp: In function 'int main()':
+../src/bmeReader.cpp:8:2: error: 'cout' was not declared in this scope
+  cout << altitude(3) << endl;
+  ^
+../src/bmeReader.cpp:8:25: error: 'endl' was not declared in this scope
+  cout << altitude(3) << endl;
+                         ^
+14:24:33 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bmeReader.o ../src/bmeReader.cpp 
+../src/bmeReader.cpp: In function 'int main()':
+../src/bmeReader.cpp:9:2: error: 'cout' was not declared in this scope
+  cout << altitude(3) << endl;
+  ^
+../src/bmeReader.cpp:9:25: error: 'endl' was not declared in this scope
+  cout << altitude(3) << endl;
+                         ^
+14:24:59 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bmeReader.o ../src/bmeReader.cpp 
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bme280.o ../src/bme280.cpp 
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/bmeReader.o src/bme280.o 
+14:26:13 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bmeReader.o ../src/bmeReader.cpp 
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/bmeReader.o src/bme280.o 
+Info: Nothing to build for bmeReader
+14:29:06 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bmeReader.o ../src/bmeReader.cpp 
+../src/bmeReader.cpp: In function 'int main()':
+../src/bmeReader.cpp:10:12: error: 'altitude' was not declared in this scope
+  altitude(3);
+            ^
+14:29:26 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bmeReader.o ../src/bmeReader.cpp 
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/bmeReader.o src/bme280.o 
+src/bme280.o: In function `altitude(int)':
+/Users/nakano-minoru/Repository/edison-kurage/workspace/bmeReader/Debug/../src/bme280.cpp:7: multiple definition of `altitude(int)'
+src/bmeReader.o:/Users/nakano-minoru/Repository/edison-kurage/workspace/bmeReader/Debug/../src/bme280.cpp:7: first defined here
+collect2: error: ld returned 1 exit status
+14:30:34 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bmeReader.o ../src/bmeReader.cpp 
+../src/bmeReader.cpp:4:18: fatal error: bme280: No such file or directory
+ #include "bme280"
+                  ^
+compilation terminated.
+14:30:43 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bmeReader.o ../src/bmeReader.cpp 
+../src/bmeReader.cpp: In function 'int main()':
+../src/bmeReader.cpp:8:12: error: 'altitude' was not declared in this scope
+  altitude(3);
+            ^
+14:35:09 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bmeReader.o ../src/bmeReader.cpp 
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bme280.o ../src/bme280.cpp 
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/bmeReader.o src/bme280.o 
+14:36:08 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bmeReader.o ../src/bmeReader.cpp 
+../src/bmeReader.cpp: In function 'int main()':
+../src/bmeReader.cpp:11:21: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+  printf("a: %f\n", f);
+                     ^
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/bmeReader.o src/bme280.o 
+14:47:11 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/altitude.o ../src/altitude.cpp 
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bmeReader.o ../src/bmeReader.cpp 
+../src/bmeReader.cpp: In function 'void initUDP()':
+../src/bmeReader.cpp:14:24: warning: variable 'addr' set but not used [-Wunused-but-set-variable]
+     struct sockaddr_in addr;
+                        ^
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/bmeReader.o src/bme280.o src/altitude.o 
+14:56:33 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/altitude.o ../src/altitude.cpp 
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/BMEReader.o ../src/BMEReader.cpp 
+../src/BMEReader.cpp: In function 'void setup()':
+../src/BMEReader.cpp:12:24: warning: variable 'addr' set but not used [-Wunused-but-set-variable]
+     struct sockaddr_in addr;
+                        ^
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/bme280.o src/altitude.o src/BMEReader.o 
+14:58:06 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/BMEReader.o ../src/BMEReader.cpp 
+../src/BMEReader.cpp: In function 'int main()':
+../src/BMEReader.cpp:10:24: warning: variable 'addr' set but not used [-Wunused-but-set-variable]
+     struct sockaddr_in addr;
+                        ^
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/bme280.o src/altitude.o src/BMEReader.o 
+14:58:50 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/BMEReader.o ../src/BMEReader.cpp 
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/bme280.o src/altitude.o src/BMEReader.o 
+14:59:03 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/BMEReader.o ../src/BMEReader.cpp 
+../src/BMEReader.cpp: In function 'int main()':
+../src/BMEReader.cpp:10:24: warning: variable 'addr' set but not used [-Wunused-but-set-variable]
+     struct sockaddr_in addr;
+                        ^
+../src/BMEReader.cpp:11:15: warning: unused variable 'ipaddr' [-Wunused-variable]
+     in_addr_t ipaddr = inet_addr("127.0.0.1");
+               ^
+../src/BMEReader.cpp:12:9: warning: unused variable 'sock' [-Wunused-variable]
+     int sock = socket(AF_INET, SOCK_DGRAM, 0);
+         ^
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/bme280.o src/altitude.o src/BMEReader.o 
+Info: Nothing to build for bmeReader
+Info: Nothing to build for bmeReader
+15:00:19 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/altitude.o ../src/altitude.cpp 
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/BMEReader.o ../src/BMEReader.cpp 
+../src/BMEReader.cpp: In function 'int main()':
+../src/BMEReader.cpp:10:24: warning: variable 'addr' set but not used [-Wunused-but-set-variable]
+     struct sockaddr_in addr;
+                        ^
+../src/BMEReader.cpp:11:15: warning: unused variable 'ipaddr' [-Wunused-variable]
+     in_addr_t ipaddr = inet_addr("127.0.0.1");
+               ^
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/bme280.o ../src/bme280.cpp 
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/bme280.o src/altitude.o src/BMEReader.o 
+15:00:34 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/BMEReader.o ../src/BMEReader.cpp 
+../src/BMEReader.cpp: In function 'int main()':
+../src/BMEReader.cpp:10:24: warning: variable 'addr' set but not used [-Wunused-but-set-variable]
+     struct sockaddr_in addr;
+                        ^
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/bme280.o src/altitude.o src/BMEReader.o 
+15:00:48 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/BMEReader.o ../src/BMEReader.cpp 
+../src/BMEReader.cpp: In function 'int main()':
+../src/BMEReader.cpp:10:24: warning: variable 'addr' set but not used [-Wunused-but-set-variable]
+     struct sockaddr_in addr;
+                        ^
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/bme280.o src/altitude.o src/BMEReader.o 
+15:02:26 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/altitude.o ../src/altitude.cpp 
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/BMEReader.o ../src/BMEReader.cpp 
+../src/BMEReader.cpp: In function 'int main()':
+../src/BMEReader.cpp:10:24: warning: variable 'addr' set but not used [-Wunused-but-set-variable]
+     struct sockaddr_in addr;
+                        ^
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/altitude.o src/BMEReader.o src/bme280.o 
+15:02:43 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/altitude.o ../src/altitude.cpp 
+../src/altitude.cpp: In function 'void init()':
+../src/altitude.cpp:25:13: warning: unused variable 'ctrl_meas_reg' [-Wunused-variable]
+     uint8_t ctrl_meas_reg = (osrs_t << 5) | (osrs_p << 2) | mode;
+             ^
+../src/altitude.cpp:26:13: warning: unused variable 'config_reg' [-Wunused-variable]
+     uint8_t config_reg = (t_sb << 5) | (filter << 2) | spi3w_en;
+             ^
+../src/altitude.cpp:27:13: warning: unused variable 'ctrl_hum_reg' [-Wunused-variable]
+     uint8_t ctrl_hum_reg = osrs_h;
+             ^
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/altitude.o src/BMEReader.o 
+15:03:50 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/altitude.o ../src/altitude.cpp 
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/altitude.o src/BMEReader.o 
+Info: Nothing to build for bmeReader
+Info: Nothing to build for bmeReader
+15:22:11 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/BMEReader.o ../src/BMEReader.cpp 
+../src/BMEReader.cpp: In function 'int main()':
+../src/BMEReader.cpp:11:24: warning: variable 'addr' set but not used [-Wunused-but-set-variable]
+     struct sockaddr_in addr;
+                        ^
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/altitude.o src/BMEReader.o 
+src/BMEReader.o: In function `main':
+/Users/nakano-minoru/Repository/edison-kurage/workspace/bmeReader/Debug/../src/BMEReader.cpp:28: undefined reference to `update()'
+collect2: error: ld returned 1 exit status
+15:23:12 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/altitude.o ../src/altitude.cpp 
+../src/altitude.cpp: In function 'double update()':
+../src/altitude.cpp:164:45: warning: variable 'hum_act' set but not used [-Wunused-but-set-variable]
+     double temp_act = 0.0, press_act = 0.0, hum_act = 0.0;
+                                             ^
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/BMEReader.o ../src/BMEReader.cpp 
+../src/BMEReader.cpp: In function 'int main()':
+../src/BMEReader.cpp:11:24: warning: variable 'addr' set but not used [-Wunused-but-set-variable]
+     struct sockaddr_in addr;
+                        ^
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/altitude.o src/BMEReader.o 
+15:31:00 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/BMEReader.o ../src/BMEReader.cpp 
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/altitude.o src/BMEReader.o 
+Info: Nothing to build for bmeReader
+15:32:07 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/BMEReader.o ../src/BMEReader.cpp 
+../src/BMEReader.cpp: In function 'int main()':
+../src/BMEReader.cpp:31:36: warning: format '%f' expects argument of type 'double', but argument 2 has type 'char*' [-Wformat=]
+         printf("HUM : %f\n", result);
+                                    ^
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/altitude.o src/BMEReader.o 
+Info: Nothing to build for bmeReader
+15:33:07 **** Incremental Build of configuration Debug for project bmeReader ****
+Info: Internal Builder is used for build
+i586-poky-linux-g++ -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/upm -I/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux/usr/include/mraa -O0 -g3 -Wall -c -fmessage-length=0 --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -m32 -march=i586 -c -ffunction-sections -fdata-sections -o src/BMEReader.o ../src/BMEReader.cpp 
+i586-poky-linux-g++ --sysroot=/Users/nakano-minoru/Documents/workspace/iotdk-ide-mac/./devkit-x86/sysroots/i586-poky-linux -lmraa -o bmeReader src/altitude.o src/BMEReader.o 

@@ -1,0 +1,18 @@
+// fork via http://trac.switch-science.com/wiki/BME280
+
+#include "mraa.hpp"
+
+double altitude();
+
+int main()
+{
+
+}
+
+int altitude()
+
+{
+
+    return n*n*n;
+
+}

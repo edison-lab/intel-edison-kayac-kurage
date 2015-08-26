@@ -1,0 +1,13 @@
+// fork via http://trac.switch-science.com/wiki/BME280
+
+#include "mraa.hpp"
+#include "bme280.h"
+
+using namespace std;
+
+int main()
+{
+	int f = altitude(3);
+	printf("a: %f\n", f);
+	return MRAA_SUCCESS;
+}

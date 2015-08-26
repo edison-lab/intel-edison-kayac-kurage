@@ -1,0 +1,9 @@
+/*
+ * bme280.cpp
+ */
+
+
+int altitude(int n)
+{
+	return n*n*n;
+}

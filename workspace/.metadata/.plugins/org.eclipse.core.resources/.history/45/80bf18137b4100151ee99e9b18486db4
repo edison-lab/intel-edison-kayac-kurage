@@ -1,0 +1,11 @@
+// fork via http://trac.switch-science.com/wiki/BME280
+
+#include "mraa.hpp"
+#include "bme280.cpp"
+
+double altitude();
+
+int main()
+{
+
+}

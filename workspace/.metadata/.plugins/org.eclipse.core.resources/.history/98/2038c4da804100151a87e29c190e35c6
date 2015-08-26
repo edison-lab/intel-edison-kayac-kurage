@@ -1,0 +1,33 @@
+/*
+ * altitude.cpp
+ * fork via http://trac.switch-science.com/wiki/BME280
+ */
+
+#include "altitude.h"
+
+#define BME280_ADDRESS 0x77
+mraa::I2c* i2c;
+
+using namespace std;
+unsigned long int hum_raw, temp_raw, pres_raw;
+signed long int t_fine;
+
+void init()
+{
+    uint8_t osrs_t = 1;    //Temperature oversampling x 1
+    uint8_t osrs_p = 1;    //Pressure oversampling x 1
+    uint8_t osrs_h = 1;    //Humidity oversampling x 1
+    uint8_t mode = 3;      //Normal mode
+    uint8_t t_sb = 5;      //Tstandby 1000ms
+    uint8_t filter = 0;    //Filter off
+    uint8_t spi3w_en = 0;  //3-wire SPI Disable
+
+    uint8_t ctrl_meas_reg = (osrs_t << 5) | (osrs_p << 2) | mode;
+    uint8_t config_reg = (t_sb << 5) | (filter << 2) | spi3w_en;
+    uint8_t ctrl_hum_reg = osrs_h;
+
+    i2c->writeReg(0xF2, ctrl_hum_reg);
+    i2c->writeReg(0xF4, ctrl_meas_reg);
+    i2c->writeReg(0xF5, config_reg);
+    //readTrim();
+}

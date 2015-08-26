@@ -1,0 +1,10 @@
+/*
+ * bme280.cpp
+ */
+
+
+double altitude()
+{
+	float h;
+    return h;
+}
