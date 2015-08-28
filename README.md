@@ -9,12 +9,12 @@ Details at http://edison-lab.jp/showcase/kayac/
 
 プロジェクト材料
 
-•	インテル® Edison モジュール
-•	温湿度・気圧センサモジュール <https://strawberry-linux.com/support/12280/1741911>
-•	I2Cモータードライバ・モジュール DRV8830 <https://strawberry-linux.com/catalog/items?code=12030>
-•	モータ
-•	ロータ
-•	リチウムイオン二次電池
-•	ヘリウムの入った風船　5つ
-•	プラスチックフレーム（レーザーカッターでカスタムメイド）
+- インテル® Edison モジュール
+- 温湿度・気圧センサモジュール <https://strawberry-linux.com/support/12280/1741911>
+- I2Cモータードライバ・モジュール DRV8830 <https://strawberry-linux.com/catalog/items?code=12030>
+- モータ
+- ロータ
+- リチウムイオン二次電池
+- ヘリウムの入った風船　5つ
+- プラスチックフレーム（レーザーカッターでカスタムメイド）
 
